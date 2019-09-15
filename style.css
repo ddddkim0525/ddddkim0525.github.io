@@ -1,0 +1,29 @@
+/*general styles*/
+body{
+	font-family: 'Arvo', serif;
+	font-size: 1.2em;
+}
+h1 {
+	margin: 5px;
+	padding: 5px;
+	border: 20px solid black;
+	font-size: 3em;
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+}
+li {
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+}
+div {
+	text-align: center;
+	background: rgba(25,125,200, 0.1);
+	border: solid 1px blue;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 4px 4px 4px grey;
+}
+.center {
+	display: block;
+	margin: 10px auto;
+}
