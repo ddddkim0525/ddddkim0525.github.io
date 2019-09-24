@@ -11,11 +11,6 @@ h1 {
 	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 }
-li {
-	list-style-type: none;
-	float: left;
-	margin-right: 10px;
-}
 div {
 	text-align: center;
 	background: rgba(25,125,200, 0.1);
