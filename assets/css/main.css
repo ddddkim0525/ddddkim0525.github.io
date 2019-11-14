@@ -2665,6 +2665,9 @@ input, select, textarea {
 			.image.main {
 				margin: 2rem 0;
 			}
+			.image.post{
+				margin: 2rem 0;
+			}
 
 		}
 
