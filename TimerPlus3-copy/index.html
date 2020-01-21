@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer Player 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <container>
+        <div class="display">
+            <h1 class="name">Name</h1>
+            <h1 class="time">0:00</h1>
+        </div>
+        <nav class="player-control">
+            <button class="play">Play</button>
+            <button class="pause">Pause</button>
+            <button class="stop">Stop</button>
+            <button class="prev">Prev</button>
+            <div class="repeat-option">
+                <p class ="control-text">Repeat</p>
+                <select name="repeat" class="repeat">
+                    <option value="none">None</option>
+                    <option value="one">One</option>
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <button class="next">Next</button>
+
+        </nav>
+        <div class="task-list">
+            <nav class="list-control">
+                <button class = "delete">Delete</button>
+                <button class = "create">Create</button>
+            </nav>
+            <ul class ="list">
+            </ul>
+        </div>
+    </container>
+    <script src="script.js"></script>
+</body>
+</html>

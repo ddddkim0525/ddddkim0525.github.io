@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height:100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #0583F2;
+    background: linear-gradient(180deg, #0583F2 0%,#0583F2 70%, rgb(97, 217, 241) 100%);
+    color:#F2F2F2;
+    font-family: 'Comfortaa', cursive;
+
+}
+container{
+    background-color:#0554F2;
+    border-radius: 1em;
+    margin:3%;
+    width:99%;
+    box-shadow: 0 -0.2em rgb(7, 123, 224);
+}
+.display{
+    border-radius:1em;
+    margin: 3%;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background-color:#2B4C8C
+}
+.display .name{
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+.display .time{
+    font-size: 4em;
+    margin:2%;
+}
+.control-text{
+    text-align:center;
+    font-size: 1em;
+    margin:0.3em;
+}
+.player-control{
+    margin: 3%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0.6em 0.6em;
+}
+.player-control button:hover{
+    background-color: rgb(236, 152, 48);
+}
+.player-control button:active{
+    background-color: rgb(218, 128, 19);
+}
+button:hover{
+    background-color: rgb(236, 152, 48);
+}
+button:active{
+    background-color: rgb(218, 128, 19);
+}
+.player-control>*{
+    background-color: #F28705;
+    border: none;
+    color:#F2F2F2;
+    font-size: 1em;
+    padding:none;
+    border-radius:0.3em;
+}
+.task-list{
+    background-color:#0e3e7c;
+    margin:3%;
+    border-radius : 1em;
+}
+.list-control{
+    background-color:#092140;
+    border-radius: 1em 1em 0 0;
+    padding-right:1em;
+}
+button{
+    float: right;
+    background-color: #F28705;
+    border: none;
+    color:#F2F2F2;
+    font-size: 1em;
+
+    border-radius:0.3em;
+    font-family: 'Comfortaa', cursive;
+    height: 100%;
+
+}
+.list-control> button{
+    margin: 0.3em;
+}
+li>button{
+    margin: 0.2em;
+}
+.repeat-option{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+select{
+    float: right;
+    background-color: rgb(192, 106, 2);
+    border: none;
+    color:#F2F2F2;
+    font-size: 1em;
+    margin:0.3em;
+    border-radius:0.3em;
+    font-family: 'Comfortaa', cursive;
+}
+
+ul{
+    list-style: none;
+    background-color:#0b51ad;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0 1em;
+}
+ul>*>input{
+    background-color: #0583F2;
+    border: none;
+    color:#F2F2F2;
+    border-radius: 0.3em;
+    margin: 0.2em;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Comfortaa', cursive;
+
+}
+li{
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;
+
+}
+li>*{
+    flex-grow: 1;
+}
+.task-list{
+    display: flex;
+    flex-flow: column nowrap;
+    list-style: none;
+    padding: 0px;
+}
+
+.task-list > li{
+    display: flex;
+    justify-content: space-around;
+}
